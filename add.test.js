@@ -12,4 +12,8 @@ describe("String Calculator", () => {
   it("should return the sum of two comma-separated numbers", () => {
     expect(add("1,2")).toBe(3);
   });
+
+  it("should return the sum of multiple comma-separated numbers", () => {
+    expect(add("1,2,4")).toBe(7);
+  });
 });
