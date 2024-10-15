@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/arabbani/incubyte-tdd-assessment/issues"
   },
-  "homepage": "https://github.com/arabbani/incubyte-tdd-assessment#readme"
+  "homepage": "https://github.com/arabbani/incubyte-tdd-assessment#readme",
+  "devDependencies": {
+    "vitest": "^2.1.3"
+  }
 }
