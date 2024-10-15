@@ -3,5 +3,7 @@ export function add(numbersString) {
     return 0;
   }
 
-  return parseInt(numbersString);
+  const numbersArray = numbersString.split(",").map(Number);
+
+  return numbersArray.reduce((sum, num) => sum + num, 0);
 }
