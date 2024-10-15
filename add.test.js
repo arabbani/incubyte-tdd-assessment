@@ -36,4 +36,8 @@ describe("String Calculator", () => {
       /^negative numbers not allowed: -2,-3$/
     );
   });
+
+  it("should return the sum of numbers ignoring numbers bigger than 1000", () => {
+    expect(add("1,2,1001")).toBe(3);
+  });
 });
