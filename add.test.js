@@ -8,4 +8,8 @@ describe("String Calculator", () => {
   it("should return the number when only one number is passed", () => {
     expect(add("5")).toBe(5);
   });
+
+  it("should return the sum of two comma-separated numbers", () => {
+    expect(add("1,2")).toBe(3);
+  });
 });
