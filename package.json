@@ -4,7 +4,8 @@
   "description": "Incubyte TDD Assessment",
   "main": "add.js",
   "scripts": {
-    "test": "vitest"
+    "test-watch": "vitest",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
