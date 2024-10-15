@@ -12,7 +12,10 @@ export function add(numbersString) {
     numbersToAdd = numbersString.substring(delimiterEndIndex + 1);
   }
 
-  const numbersArray = numbersToAdd.split(delimiter).map(Number);
+  const numbersArray = numbersToAdd
+    .split(delimiter)
+    .map(Number)
+    .filter((num) => num <= 1000);
   const negativeNumbers = numbersArray.filter((num) => num < 0);
 
   if (negativeNumbers.length > 0) {
